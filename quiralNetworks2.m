@@ -33,4 +33,4 @@ assume(polyD1(4) >= 0);
   
 %Solve for x
 %S=solve(charpoly(R1+R2,x),x,'ReturnConditions',true); 
-sol_explicit = simplify(solve(charpoly(R1+R2,x),x, 'MaxDegree', 4))
+%sol_explicit = simplify(solve(charpoly(R1+R2,x),x, 'MaxDegree', 4))
